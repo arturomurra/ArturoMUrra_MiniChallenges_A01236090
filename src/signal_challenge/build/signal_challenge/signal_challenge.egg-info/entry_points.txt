@@ -1,0 +1,4 @@
+[console_scripts]
+signal_generator = signal_challenge.signal_generator:main
+signal_reconstruction = signal_challenge.signal_reconstruction:main
+

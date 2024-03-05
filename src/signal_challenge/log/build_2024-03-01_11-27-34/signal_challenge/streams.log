@@ -1,0 +1,44 @@
+[0.701s] Invoking command in '/home/arturomurra/FundamentacionRob/src/signal_challenge': PYTHONPATH=/home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/prefix_override:/home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/signal_challenge build --build-base /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build install --record /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/install.log --single-version-externally-managed
+[0.971s] running egg_info
+[0.971s] creating build/signal_challenge/signal_challenge.egg-info
+[0.972s] writing build/signal_challenge/signal_challenge.egg-info/PKG-INFO
+[0.972s] writing dependency_links to build/signal_challenge/signal_challenge.egg-info/dependency_links.txt
+[0.973s] writing entry points to build/signal_challenge/signal_challenge.egg-info/entry_points.txt
+[0.973s] writing requirements to build/signal_challenge/signal_challenge.egg-info/requires.txt
+[0.973s] writing top-level names to build/signal_challenge/signal_challenge.egg-info/top_level.txt
+[0.973s] writing manifest file 'build/signal_challenge/signal_challenge.egg-info/SOURCES.txt'
+[0.974s] reading manifest file 'build/signal_challenge/signal_challenge.egg-info/SOURCES.txt'
+[0.974s] adding license file 'LICENSE'
+[0.975s] writing manifest file 'build/signal_challenge/signal_challenge.egg-info/SOURCES.txt'
+[0.975s] running build
+[0.975s] running build_py
+[0.975s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build
+[0.975s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib
+[0.975s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge
+[0.975s] copying signal_challenge/__init__.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge
+[0.975s] copying signal_challenge/signal_reconstruction.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge
+[0.975s] copying signal_challenge/signal_generator.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge
+[0.976s] running install
+[0.976s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.976s]   warnings.warn(
+[0.976s] running install_lib
+[0.977s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge
+[0.977s] copying /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge/__init__.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge
+[0.977s] copying /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge/signal_reconstruction.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge
+[0.977s] copying /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build/lib/signal_challenge/signal_generator.py -> /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge
+[0.978s] byte-compiling /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge/__init__.py to __init__.cpython-310.pyc
+[0.978s] byte-compiling /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge/signal_reconstruction.py to signal_reconstruction.cpython-310.pyc
+[0.978s] byte-compiling /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge/signal_generator.py to signal_generator.cpython-310.pyc
+[0.979s] running install_data
+[0.979s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/share/ament_index
+[0.979s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/share/ament_index/resource_index
+[0.979s] creating /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/share/ament_index/resource_index/packages
+[0.979s] copying resource/signal_challenge -> /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/share/ament_index/resource_index/packages
+[0.979s] copying package.xml -> /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/share/signal_challenge
+[0.979s] running install_egg_info
+[0.981s] Copying build/signal_challenge/signal_challenge.egg-info to /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages/signal_challenge-0.0.0-py3.10.egg-info
+[0.981s] running install_scripts
+[1.001s] Installing signal_generator script to /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/signal_challenge
+[1.001s] Installing signal_reconstruction script to /home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/signal_challenge
+[1.001s] writing list of installed files to '/home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/install.log'
+[1.017s] Invoked command in '/home/arturomurra/FundamentacionRob/src/signal_challenge' returned '0': PYTHONPATH=/home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/prefix_override:/home/arturomurra/FundamentacionRob/src/signal_challenge/install/signal_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/signal_challenge build --build-base /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/build install --record /home/arturomurra/FundamentacionRob/src/signal_challenge/build/signal_challenge/install.log --single-version-externally-managed

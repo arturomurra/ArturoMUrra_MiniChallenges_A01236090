@@ -1,0 +1,26 @@
+signals:
+  - type: 1 #sine
+    amplitude: 15.0
+    frequency: 17.0
+    offset: 2.0
+
+  - type: 2 #square
+    amplitude: 10.0
+    frequency: 3.0
+    offset: 2.0
+
+  - type: 3 #sawtooth
+    amplitude: 0.4
+    frequency: 3.0
+    offset: -0.2
+
+  - type: 4 #triangular
+    amplitude: 0.6
+    frequency: 1.0
+    offset: 0.0
+
+  - type: 5 #cosine
+    amplitude: 0.4
+    frequency: 2.5
+    offset: 0.2
+
