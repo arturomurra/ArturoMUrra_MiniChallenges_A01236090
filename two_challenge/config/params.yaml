@@ -1,5 +1,5 @@
 signal_generator_node:
-  ros_parameters:
+  ros__parameters:
     signal_type: 0
     default:
       amplitude: 0.5
