@@ -21,7 +21,7 @@ class Signal_Reconstructor(Node):
         self.signal_msg = Float32()
 
         self.signal_pub = self.create_publisher(Float32, 'signal_reconstructed/wave', 10)
-        self.signal_params_sub= self.create_subscription(SignalDecomposed, 'signal/params', self.signal_params_callback)
+        self.signal_params_sub= self.create_subscription(SignalDecomposed, 'signal/params', self.signal_params_callback, qos_profile=rclpy.qos.qos_profile_sensor_data)
 
         self.signal_timer = self.create_timer(self.signal_timer_period, self.signal_timer_callback)
     
@@ -38,7 +38,7 @@ class Signal_Reconstructor(Node):
         self.signal_pub.publish(self.signal_msg)
 
     def signal_params_callback(self, msg):
-        self.current_signal = msg.signalype
+        self.current_signal = msg.signaltype
         self.a = msg.amplitude
         self.f = msg.frequency
         self.offset = msg.offset
