@@ -1,5 +1,10 @@
 # minichallenge2A01236090
+## Challenge 1
+Paquete llamado signal_challenge
 
-Incluye Src de el workspace:
+## Challenge 2
+Paquete llamado two_challenge y utiliza el signal_msg
 
-Two_challenge es el reto a revisar, el mimi_challenge2. Todavia estoy teniendo problemas con los custom_msgs y paquetes. Los nodos en realidad fueron proporcionados por Manchster Robotics entonces esos no deben tener problemas.
+## Challenge 3
+Código de arduino
+https://drive.google.com/file/d/1IEEGsznyJp2QNrx6GHDAeovDlArM9BF7/view?usp=drive_link
